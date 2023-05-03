@@ -4,3 +4,11 @@
 
 #a = input("Digite um número: ")
 #print (a + 2.5)
+
+#Neste exemplo, basta incluir um a=int(input("Digite um número: "))
+#Assim, estamos dizendo que a entrada será de um número inteiro
+# O input é utilizado para receber string, assim, ao realizar esse int(input) estamos realizando um parse/convert
+
+
+a = int(input("Digite um número: "))
+print(a + 4)
